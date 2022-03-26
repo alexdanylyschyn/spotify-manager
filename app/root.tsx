@@ -10,6 +10,7 @@ import {
 import type { LinksFunction, MetaFunction, LoaderFunction } from "remix";
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
+import Header from "./partials/header";
 import { getUser } from "./session.server";
 
 export const links: LinksFunction = () => {
@@ -40,6 +41,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
+        <Header />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
