@@ -1,4 +1,4 @@
-app = "spotify-manager-1f29"
+app = "spotify-manager"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = [ ]
